@@ -33,7 +33,7 @@ If everything went well, we will hear a sound from windows, and if it has gone b
 
 For the radio and adf frequencies:
 
-In the profiles, when changing them, we must bear in mind that in adf, the number must always be specified at the end, 1 for the right, 2 for the left.
+In the profiles, when changing them, we must bear in mind that in adf, the number must always be specified at the end, 1 for the left, 2 for the right.
 What exists before the number does not matter, but plugin if it collects that last data.
 
 The frequencies must be dictated digit to digit. If it is necessary to add a decimal point, it is specified with "decimal" or "comma" and the following digits,
