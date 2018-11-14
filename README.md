@@ -42,3 +42,6 @@ having to be detected in the voiceattack log, the complete number to be inserted
 Append dictation buffer: 418.1 or Append dictation buffer: 418,1
 
 After this, we will hear by windows one sound or another if everything went well. Or none if voiceattack has not been able to know what we say :D
+
+
+If you like this project and want to contribute, you can invite me to a cup of coffee or a beer    [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9FTQ98SM9V34C&source=url)
