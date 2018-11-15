@@ -1,7 +1,7 @@
 # SpeechDCS
 Plugin for voice attack that allows you to dictate the frequencies for vhf, uhf, adf, and nadir, in Gazelle.
 
-These are the few features that it brings. For now for the Gazelle SA342 of DCS
+These are the few features that it brings. For now for the Gazelle SA342 of DCS 2.5.3
 
 Installation:
 
