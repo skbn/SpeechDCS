@@ -3,12 +3,9 @@ package.cpath = package.cpath..";.\\LuaSocket\\?.dll;"
 
 dofile(lfs.writedir()..[[Scripts\SpeechDCS\Config.lua]])
 
-local Main = {}
-
 local PrevExport = {}
 PrevExport.LuaExportStart = LuaExportStart
 PrevExport.LuaExportStop = LuaExportStop
-PrevExport.LuaExportBeforeNextFrame = LuaExportBeforeNextFrame
 PrevExport.LuaExportActivityNextEvent = LuaExportActivityNextEvent
 
 function LuaExportStart()
@@ -39,25 +36,11 @@ function LuaExportStop()
 	end
 end
 
-function LuaExportBeforeNextFrame()
-	local status, err = pcall(function()
-		Controller.Read()
-	end)
-	
-    if not status then
-        Util.WriteLine("ERROR LuaExportBeforeNextFrame: "..err)
-    end
-
-	if PrevExport.LuaExportBeforeNextFrame then
-		PrevExport.LuaExportBeforeNextFrame()
-	end
-end
-
 function LuaExportActivityNextEvent(currenttime)
     local NextTime = currenttime + Config.Update
 	
 	local status, err = pcall(function()
-		Controller.Send()
+		Controller.Step()
 	end)
 	
     if not status then
