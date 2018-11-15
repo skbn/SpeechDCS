@@ -43,5 +43,11 @@ Append dictation buffer: 418.1 or Append dictation buffer: 418,1
 
 After this, we will hear by windows one sound or another if everything went well. Or none if voiceattack has not been able to know what we say :D
 
+Below is a short video of how the plugin works
+
+
+[![Example](http://img.youtube.com/vi/_lAqHCH1dfo/0.jpg)](https://www.youtube.com/watch?v=_lAqHCH1dfo "Example")
+
+
 
 If you like this project and want to contribute, you can invite me to a cup of coffee or a beer    [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9FTQ98SM9V34C&source=url)
