@@ -27,7 +27,7 @@ In this case, it only allows changing the coordinates of the waypoints. Selector
 
 To change waypoints, just say "Waypoint X", where X is a number between 1 and 9
 
-To change the coordinates within that waypoint, we should say, "Nadir X", where X can be "North", "South", "East", "West". "N, S, E, W or O". Read the first letter to get the cardinal.
+To change the coordinates within that waypoint, we should say, "Nadir X", where X can be "North", "South", "East", "West". "N, S, E, W or O". Read the first letter to get the cardinal."Norte Sur Este Oeste. Nord Sud Est Ouest". Which allows the use of other languages more easily.
 
 Having said that, we waited 1 second, approximately, to enter dictation mode, and say the 5 digits for the waypoint, without points or commas. Only 5 digits.
 If everything went well, we will hear a sound from windows, and if it has gone badly, another different sound.
