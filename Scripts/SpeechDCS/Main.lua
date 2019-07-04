@@ -10,7 +10,7 @@ PrevExport.LuaExportActivityNextEvent = LuaExportActivityNextEvent
 
 function LuaExportStart()
 	local status, err = pcall(function()	
-		Controller.Start()		
+		Controller.Start()	
 	end)
 	
     if not status then
