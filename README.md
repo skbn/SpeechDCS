@@ -52,3 +52,7 @@ Below is a short video of how the plugin works
 
 
 If you like this project and want to contribute, you can invite me to a cup of coffee or a beer    [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9FTQ98SM9V34C&source=url)
+
+
+Release 0.4
+- Added support to change the receive and send radio frequencies of the mig15
