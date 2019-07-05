@@ -55,7 +55,7 @@ If you like this project and want to contribute, you can invite me to a cup of c
 
 
 Release 0.4.1
-- Added message when there is a new version
+- Added message box when there is a new version
 
 Release 0.4
 - Added support to change the receive and send radio frequencies of the mig15
