@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <HasMB>false</HasMB>
-  <Id>8ebe7734-cd9f-481e-8d32-bc643a309b71</Id>
-  <Name>Gazelle SA342</Name>
+  <Id>6f53e232-a3af-4559-aba9-4e3d39026548</Id>
+  <Name>Gazelle SA342 SpeechDCS</Name>
   <Commands>
     <Command>
       <Referrer xsi:nil="true" />
@@ -17,13 +17,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>f18db053-10f4-49fa-80a5-d32c1f74a158</BaseId>
+      <BaseId>392da6a9-d136-4483-9de2-805d9a5e0d67</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>9e80531a-5151-4bb9-8345-a2fa5a3b3020</Id>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>3e645391-f53c-4a82-8cae-44a83ba1e2be</Id>
       <CommandString>ADF 1; ADF 2</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -32,8 +32,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>5135a013-cd0b-48f1-9e93-4ce3920f6dfd</Id>
+          <Id>5837f3ad-6b3c-41ea-9ee4-193055ff6e75</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -41,7 +40,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>select_adf</Context4>
+          <Context4>sa342_select_adf</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -62,6 +61,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -107,7 +107,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>5128e324-3b8e-43fd-a070-da93de66c65e</lastEditedAction>
+      <lastEditedAction>847a3c6e-6343-459b-b62f-c30c9a05baf9</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -116,6 +116,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
     <Command>
       <Referrer xsi:nil="true" />
@@ -130,13 +136,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>fe95da52-ced4-468e-b07a-0d8a490ca5f1</BaseId>
+      <BaseId>17ecd688-b964-44e4-be5d-e97fca007ad9</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>6c448b31-efc7-4dc5-95a5-4cd4cc04421f</Id>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>c8f73754-cbb2-4450-a31f-5d154be83e2f</Id>
       <CommandString>Frequency ADF 1; Frequency ADF 2</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -145,8 +151,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>ba1d4674-d1ac-489f-8e6e-f3173e4b223a</Id>
+          <Id>90103453-52db-454a-947a-bcf1a49df699</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -167,19 +172,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Dictation Mode (Clearing Dictation Buffer)</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>1</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Dictation Mode (Clearing Dictation Buffer)</Caption>
-          <Id>670af8f6-4716-41b8-92ff-f093b34322b8</Id>
+          <Id>e594b3bc-a2e3-4b99-ada8-141d315cdd63</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -200,19 +204,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Loop While : [{DICTATION}] Equals ''</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>2</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Loop While : [{DICTATION}] Equals ''</Caption>
-          <Id>424baba2-10e9-418d-a819-7c5293c02eaa</Id>
+          <Id>0c585af7-96d8-4d81-9b5a-9c8755aad394</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -236,19 +239,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>End Loop</_caption>
-          <PairingSet>true</PairingSet>
+          <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>3</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>End Loop</Caption>
-          <Id>bf0ee800-d8a5-4029-a2a9-bad8e161f441</Id>
+          <Id>0393c282-b306-48d0-a766-258b95e5a054</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -269,19 +271,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>4</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>b6678ab9-2a94-45f3-8e1d-ce9b0d9cf50c</Id>
+          <Id>275ea6c7-f07e-4906-8d56-dd65646c5bb8</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -302,19 +303,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>5</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>f549fcbc-2c22-4a0f-a3ad-8418738e9393</Id>
+          <Id>19ae515c-5a9e-4562-90c0-22d2cf3092d2</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -322,7 +322,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>adf</Context4>
+          <Context4>sa342_adf</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -343,6 +343,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -388,7 +389,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>627f7549-dd0a-405f-843f-efc6846929e1</lastEditedAction>
+      <lastEditedAction>fb511d22-3b0a-4646-89f1-9b4b2cdd21f2</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -397,6 +398,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
     <Command>
       <Referrer xsi:nil="true" />
@@ -411,13 +418,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>b1a2de3f-bed3-4b9b-8394-051ff1ce1040</BaseId>
+      <BaseId>6cb2c5b7-397d-4658-a705-8aea13b2467d</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>b2250b21-b2cd-483b-807d-95db52bd9da5</Id>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>72d62add-7a86-4cae-9ae1-7af25ea785a9</Id>
       <CommandString>Frequency UHF</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -426,8 +433,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>36009733-1ef5-4def-a61e-762be4deeddc</Id>
+          <Id>6d0593a1-8e17-426e-8d8c-a9c475edc338</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -448,19 +454,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Dictation Mode (Clearing Dictation Buffer)</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>1</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Dictation Mode (Clearing Dictation Buffer)</Caption>
-          <Id>716a0989-6fc9-4a69-a5a4-2cac5e54119b</Id>
+          <Id>8f573249-4ab9-49af-850f-fa14ae25a934</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -481,19 +486,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Loop While : [{DICTATION}] Equals ''</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>2</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Loop While : [{DICTATION}] Equals ''</Caption>
-          <Id>18264d86-b8da-4196-beb9-8c807a507087</Id>
+          <Id>865a2703-ee26-489f-a91e-d384d9b58b92</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -517,19 +521,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>End Loop</_caption>
-          <PairingSet>true</PairingSet>
+          <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>3</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>End Loop</Caption>
-          <Id>55452a57-e8f8-489e-8877-a90fecc484f7</Id>
+          <Id>f452d45f-4e59-4c63-908b-0c3bbfd7852e</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -550,19 +553,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>4</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>c5aa173d-ef62-44e5-b36f-70b6ee4887ab</Id>
+          <Id>35b19317-06f8-4f29-a03e-bb635cebbe72</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -583,19 +585,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>5</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>113bdc31-b515-4610-8f44-170a8d1f68f9</Id>
+          <Id>9ed1ada8-4de0-4271-8d82-2ad9ca40222e</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -603,7 +604,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>uhf</Context4>
+          <Context4>sa342_uhf</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -624,6 +625,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -669,7 +671,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>52747791-58b0-4602-9897-eb5b9443c5d3</lastEditedAction>
+      <lastEditedAction>5fc5c4cd-38d6-4898-9d06-ac8f7b3774fd</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -678,6 +680,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
     <Command>
       <Referrer xsi:nil="true" />
@@ -692,13 +700,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>f53cbd5d-e467-479a-8f9e-7425443aeb42</BaseId>
+      <BaseId>a624fca1-356d-4b85-824b-9046710d7c05</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>eae1f9d5-7433-4dd1-8e4f-990dce1531e1</Id>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>ee99ef56-8226-4645-b353-b33594d4fe62</Id>
       <CommandString>Frequency VHF</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -707,8 +715,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>3510f792-77df-4179-85c0-bd37bb37a33c</Id>
+          <Id>933220b4-7414-4e2b-b098-eec8ebacc607</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -729,19 +736,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Dictation Mode (Clearing Dictation Buffer)</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>1</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Dictation Mode (Clearing Dictation Buffer)</Caption>
-          <Id>13418d3f-8924-4ee6-8aad-5d6ce51e5fd7</Id>
+          <Id>20ace377-03cc-49de-8aa6-1acda93cde1c</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -762,19 +768,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Loop While : [{DICTATION}] Equals ''</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>2</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Loop While : [{DICTATION}] Equals ''</Caption>
-          <Id>b386cc11-1f95-4618-a897-32710682fee4</Id>
+          <Id>ba400ca8-287c-435b-b298-2c5f655adaef</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -798,19 +803,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>End Loop</_caption>
-          <PairingSet>true</PairingSet>
+          <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>3</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>End Loop</Caption>
-          <Id>abbf366e-0a57-46d6-a4b3-20f810e0b822</Id>
+          <Id>ac7193c3-7af6-4c2f-889c-0e3d5217d5e2</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -831,19 +835,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>4</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>034a48e1-3c8b-4c54-b460-9ed0e2de5c2b</Id>
+          <Id>df59caf9-a816-4d60-b0f4-3b572d6e281b</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -864,19 +867,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>5</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>e344c4a4-0d44-4a9a-af92-5cabe6795309</Id>
+          <Id>42f1182a-264e-4c59-96ff-32dba6f07b77</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -884,7 +886,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>vhf</Context4>
+          <Context4>sa342_vhf</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -905,6 +907,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -950,7 +953,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>886f4a42-1639-4d4b-86a6-0fad044e4650</lastEditedAction>
+      <lastEditedAction>30461c49-0b01-4d5e-a6b4-cf0e3c3cdd9d</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -959,6 +962,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
     <Command>
       <Referrer xsi:nil="true" />
@@ -973,13 +982,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>79e3843c-4ecc-45b0-964c-06d4c62559fc</BaseId>
+      <BaseId>c795f4c6-4f63-4d72-af7b-e8b0560858c9</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>c38dc206-2313-4a0e-b724-c79744dd9df5</Id>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>f66cf189-9d6a-4df9-9478-545e384a332b</Id>
       <CommandString>NADIR North; NADIR South; NADIR East; NADIR West</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -988,8 +997,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>1ab0d092-9745-4524-bd08-a367be96aea8</Id>
+          <Id>413960fd-ed73-4198-bcee-8fee91570ae9</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1010,19 +1018,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Dictation Mode (Clearing Dictation Buffer)</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>1</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Dictation Mode (Clearing Dictation Buffer)</Caption>
-          <Id>c154948a-df4f-45cc-82da-5059ee4ff571</Id>
+          <Id>4723bc88-18df-4b01-b650-b518e9ca69dd</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1043,19 +1050,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Start Loop While : [{DICTATION}] Equals ''</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>2</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Start Loop While : [{DICTATION}] Equals ''</Caption>
-          <Id>8de0032a-59ac-4b35-a31b-56138bd9ebd7</Id>
+          <Id>3c221b9a-367f-47e1-98a9-307f78d3f3e5</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1079,19 +1085,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>End Loop</_caption>
-          <PairingSet>true</PairingSet>
+          <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>3</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>End Loop</Caption>
-          <Id>5dfee707-d7a6-4e8b-b463-7779bf57f693</Id>
+          <Id>4db35c60-9871-4186-a50f-516bf677d7c2</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1112,19 +1117,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Stop Dictation Mode</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>4</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Stop Dictation Mode</Caption>
-          <Id>d07be5e7-c891-4532-8fbd-f931f18e10af</Id>
+          <Id>122481be-f135-4678-b45c-5001ad8b4920</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1145,19 +1149,18 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
-          <Ordinal>5</Ordinal>
+          <Ordinal>0</Ordinal>
           <ConditionMet xsi:nil="true" />
           <IndentLevel>0</IndentLevel>
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>c639086f-99d2-464b-8246-d4cf44001274</Id>
+          <Id>ae295069-bb47-4c3d-a51d-33e1820580fb</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1165,7 +1168,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>nadir</Context4>
+          <Context4>sa342_nadir</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -1186,6 +1189,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -1231,7 +1235,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>1cbc8b18-a00f-4072-ab3e-39914b818ef7</lastEditedAction>
+      <lastEditedAction>b6cd8d46-fe40-4cc3-b133-25e85505cf77</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -1240,6 +1244,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
     <Command>
       <Referrer xsi:nil="true" />
@@ -1254,13 +1264,13 @@
       <ExecFromWildcard>false</ExecFromWildcard>
       <IsSubCommand>false</IsSubCommand>
       <IsOverride>false</IsOverride>
-      <BaseId>38e7debd-3441-4de0-8f03-68327272e028</BaseId>
+      <BaseId>14d36a41-5b9d-45a9-92ab-6def541b9a54</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
-      <Id>4ecf6a3f-a4f5-48a8-ac73-9f64c35277ba</Id>
-      <CommandString>Waypoint 1; Waypoint 2; Waypoint 3; Waypoint 4; Waypoint 5; Waypoint 6; Waypoint 7; Waypoint 8; Waypoint 9</CommandString>
+      <SessionEnabled>true</SessionEnabled>
+      <Id>3f6e0584-c096-4293-9a2b-c7512b59f57f</Id>
+      <CommandString>Waypoint [1..9]</CommandString>
       <ActionSequence>
         <CommandAction>
-          <_caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</_caption>
           <PairingSet>false</PairingSet>
           <PairingSetElse>false</PairingSetElse>
           <Ordinal>0</Ordinal>
@@ -1269,8 +1279,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Caption>Execute external plugin, 'Speech DCS v0.1a' and wait for return</Caption>
-          <Id>2c198680-f543-4157-9179-9492bafb5412</Id>
+          <Id>db076a29-40d4-48a7-a9b8-216b0c345eb3</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1278,7 +1287,7 @@
           <Context>ece4503d-57e5-4ee2-878d-5d5d8f09c589</Context>
           <Context2 />
           <Context3 />
-          <Context4>select_waypoint</Context4>
+          <Context4>sa342_select_waypoint</Context4>
           <X>1</X>
           <Y>0</Y>
           <Z>0</Z>
@@ -1299,6 +1308,7 @@
           <DateContext2>0001-01-01T00:00:00</DateContext2>
           <Disabled>false</Disabled>
           <RandomSounds />
+          <ConditionExpressions />
         </CommandAction>
       </ActionSequence>
       <Async>true</Async>
@@ -1344,7 +1354,7 @@
       <MouseUpOnly>false</MouseUpOnly>
       <MousePassThru>true</MousePassThru>
       <joystickExclusive>false</joystickExclusive>
-      <lastEditedAction>69f63a1b-a834-46de-83f4-25eed566639e</lastEditedAction>
+      <lastEditedAction>1f60c54e-5691-41b6-a264-a7819bf67f4d</lastEditedAction>
       <UseProfileProcessOverride>false</UseProfileProcessOverride>
       <ProfileProcessOverrideActiveWindow>false</ProfileProcessOverrideActiveWindow>
       <RepeatIfKeysDown>false</RepeatIfKeysDown>
@@ -1353,6 +1363,12 @@
       <AH>0</AH>
       <CL>0</CL>
       <HasMB>false</HasMB>
+      <UseVariableHotkey>false</UseVariableHotkey>
+      <CLE>0</CLE>
+      <EX1>false</EX1>
+      <EX2>false</EX2>
+      <InternalId xsi:nil="true" />
+      <HasInput>false</HasInput>
     </Command>
   </Commands>
   <OverrideGlobal>false</OverrideGlobal>
@@ -1383,7 +1399,7 @@
   <GlobalJoystickButton2>0</GlobalJoystickButton2>
   <GlobalJoystickNumber2>0</GlobalJoystickNumber2>
   <ReferencedProfile xsi:nil="true" />
-  <ExportVAVersion>1.7.2</ExportVAVersion>
+  <ExportVAVersion>1.7.6</ExportVAVersion>
   <ExportOSVersionMajor>6</ExportOSVersionMajor>
   <ExportOSVersionMinor>2</ExportOSVersionMinor>
   <OverrideConfidence>false</OverrideConfidence>
@@ -1399,7 +1415,7 @@
   <EnableProfileSwitch>false</EnableProfileSwitch>
   <CategoryGroups />
   <GroupCategory>true</GroupCategory>
-  <LastEditedCommand>f18db053-10f4-49fa-80a5-d32c1f74a158</LastEditedCommand>
+  <LastEditedCommand>17ecd688-b964-44e4-be5d-e97fca007ad9</LastEditedCommand>
   <IS>0</IS>
   <IO>0</IO>
   <ReferencedProfiles />
@@ -1407,4 +1423,14 @@
   <BE>0</BE>
   <UnloadCommandEnabled>false</UnloadCommandEnabled>
   <UnloadCommandId xsi:nil="true" />
+  <BlockExternal>false</BlockExternal>
+  <AuthorID xsi:nil="true" />
+  <ProductID xsi:nil="true" />
+  <CR>0</CR>
+  <InternalID xsi:nil="true" />
+  <PR>0</PR>
+  <CO>0</CO>
+  <OP>0</OP>
+  <CV>0</CV>
+  <PD>0</PD>
 </Profile>

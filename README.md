@@ -1,5 +1,6 @@
 # SpeechDCS
-Plugin for voice attack that allows you to dictate the frequencies for vhf, uhf, adf, and nadir, in Gazelle and, frequencies for receive and transmit in Mig15bis.
+Plugin for voice attack that allows you to dictate the frequencies for vhf, uhf, adf, and nadir, in Gazelle and, radio frequencies for receive and transmit, adf in Mig15bis.
+Alpha of uh-1. for the moment only the adf
 
 These are the few features that it brings. For now for the Gazelle SA342 of DCS 2.5.5
 
@@ -53,6 +54,9 @@ Below is a short video of how the plugin works
 
 If you like this project and want to contribute, you can invite me to a cup of coffee or a beer    [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9FTQ98SM9V34C&source=url)
 
+Release 0.4.1.1
+- Added change frequencies for adf of mig15-bis
+- Added alpha testing for uh-1h (adf only)
 
 Release 0.4.1
 - Added message when there is a new version
