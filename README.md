@@ -59,7 +59,7 @@ Release 0.4.1.1
 - Added alpha testing for uh-1h (adf only)
 
 Release 0.4.1
-- Added message when there is a new version
+- Added message box when there is a new version
 
 Release 0.4
 - Added support to change the receive and send radio frequencies of the mig15
