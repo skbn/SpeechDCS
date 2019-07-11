@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <HasMB>false</HasMB>
-  <Id>6f53e232-a3af-4559-aba9-4e3d39026548</Id>
+  <Id>095aada2-4011-43f6-878a-9aabc6bae52c</Id>
   <Name>Gazelle SA342 SpeechDCS</Name>
   <Commands>
     <Command>
@@ -20,7 +20,7 @@
       <BaseId>392da6a9-d136-4483-9de2-805d9a5e0d67</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>3e645391-f53c-4a82-8cae-44a83ba1e2be</Id>
+      <Id>d9d28f80-ea17-4fe0-9eca-4b2b4169341c</Id>
       <CommandString>ADF 1; ADF 2</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -32,7 +32,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>5837f3ad-6b3c-41ea-9ee4-193055ff6e75</Id>
+          <Id>313f61db-b19e-42f2-907d-b5687ec9c8d5</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -139,7 +139,7 @@
       <BaseId>17ecd688-b964-44e4-be5d-e97fca007ad9</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>c8f73754-cbb2-4450-a31f-5d154be83e2f</Id>
+      <Id>3d8e5aa4-2eaa-4dd8-88a4-bef078009b7e</Id>
       <CommandString>Frequency ADF 1; Frequency ADF 2</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -151,7 +151,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>90103453-52db-454a-947a-bcf1a49df699</Id>
+          <Id>43363113-c386-4022-97d7-773f0c2ad4a2</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -183,7 +183,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>e594b3bc-a2e3-4b99-ada8-141d315cdd63</Id>
+          <Id>cd88af70-3456-4bf8-9622-3c54024b3a66</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -215,7 +215,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>0c585af7-96d8-4d81-9b5a-9c8755aad394</Id>
+          <Id>1ea28c9c-4e0a-435c-9846-16e887f1cf3e</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -250,7 +250,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>0393c282-b306-48d0-a766-258b95e5a054</Id>
+          <Id>e99d40eb-882f-4bb9-82a0-d56c1d1249d8</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -282,7 +282,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>275ea6c7-f07e-4906-8d56-dd65646c5bb8</Id>
+          <Id>6309705f-a3ad-4c2f-bf14-c1b3256a9dd2</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -314,7 +314,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>19ae515c-5a9e-4562-90c0-22d2cf3092d2</Id>
+          <Id>99130198-11c6-4706-ae30-1622c4f6af91</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -421,7 +421,7 @@
       <BaseId>6cb2c5b7-397d-4658-a705-8aea13b2467d</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>72d62add-7a86-4cae-9ae1-7af25ea785a9</Id>
+      <Id>681a7343-b3a9-4cfe-be48-40ed1de4236c</Id>
       <CommandString>Frequency UHF</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -433,7 +433,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>6d0593a1-8e17-426e-8d8c-a9c475edc338</Id>
+          <Id>2ab82990-0424-4cea-a437-8148ebbe6cc6</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -465,7 +465,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>8f573249-4ab9-49af-850f-fa14ae25a934</Id>
+          <Id>008dc1fa-0c50-42a7-85d4-9dce056c971d</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -497,7 +497,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>865a2703-ee26-489f-a91e-d384d9b58b92</Id>
+          <Id>368e3ee7-94d4-4161-8d77-f608a89a8940</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -532,7 +532,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>f452d45f-4e59-4c63-908b-0c3bbfd7852e</Id>
+          <Id>90245e5c-39cc-4b25-948b-802309fe2d3a</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -564,7 +564,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>35b19317-06f8-4f29-a03e-bb635cebbe72</Id>
+          <Id>70e7af16-0f3f-40ce-82a8-eb281ddc9cb8</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -596,7 +596,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>9ed1ada8-4de0-4271-8d82-2ad9ca40222e</Id>
+          <Id>fcd6d6f5-64d9-427d-a561-e9c32cf9bc84</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -703,7 +703,7 @@
       <BaseId>a624fca1-356d-4b85-824b-9046710d7c05</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>ee99ef56-8226-4645-b353-b33594d4fe62</Id>
+      <Id>fe9ac6a4-5343-4767-9093-00e2f08094f3</Id>
       <CommandString>Frequency VHF</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -715,7 +715,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>933220b4-7414-4e2b-b098-eec8ebacc607</Id>
+          <Id>925701f7-3aa7-4a6c-9576-13a981aa66d2</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -747,7 +747,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>20ace377-03cc-49de-8aa6-1acda93cde1c</Id>
+          <Id>b343dd10-23a3-42e6-94cf-ad9c29ab7d5f</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -779,7 +779,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>ba400ca8-287c-435b-b298-2c5f655adaef</Id>
+          <Id>335e1727-f201-4187-8df6-11e8a8003d03</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -814,7 +814,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>ac7193c3-7af6-4c2f-889c-0e3d5217d5e2</Id>
+          <Id>ef650be7-3914-4683-9f94-9deeb7e220be</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -846,7 +846,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>df59caf9-a816-4d60-b0f4-3b572d6e281b</Id>
+          <Id>e8a0c0b7-f1c6-419c-b76b-261bc2e2589c</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -878,7 +878,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>42f1182a-264e-4c59-96ff-32dba6f07b77</Id>
+          <Id>afcb0325-5c85-46cf-9c3a-41fff91605fe</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -985,7 +985,7 @@
       <BaseId>c795f4c6-4f63-4d72-af7b-e8b0560858c9</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>f66cf189-9d6a-4df9-9478-545e384a332b</Id>
+      <Id>0fec22a8-103a-4956-8b25-89ee6cc4ed85</Id>
       <CommandString>NADIR North; NADIR South; NADIR East; NADIR West</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -997,7 +997,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>413960fd-ed73-4198-bcee-8fee91570ae9</Id>
+          <Id>2376117b-95d0-42e3-9d75-665f0a5be87e</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1029,7 +1029,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>4723bc88-18df-4b01-b650-b518e9ca69dd</Id>
+          <Id>5d6c6157-2832-4564-b5a5-4be2bcbd740c</Id>
           <ActionType>StartDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1061,7 +1061,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>3c221b9a-367f-47e1-98a9-307f78d3f3e5</Id>
+          <Id>f82d5f28-4992-4620-8af4-cda291c1fb7e</Id>
           <ActionType>WhileStart</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1096,7 +1096,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>4db35c60-9871-4186-a50f-516bf677d7c2</Id>
+          <Id>14fe8ba6-4161-46c5-bd5f-892506ded10e</Id>
           <ActionType>WhileEnd</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1128,7 +1128,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>122481be-f135-4678-b45c-5001ad8b4920</Id>
+          <Id>8b2055a2-fed2-451b-b01c-fc6374758ea4</Id>
           <ActionType>StopDictation</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1160,7 +1160,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>ae295069-bb47-4c3d-a51d-33e1820580fb</Id>
+          <Id>938a5d59-40a3-47b3-959b-443ea32de5df</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1267,7 +1267,7 @@
       <BaseId>14d36a41-5b9d-45a9-92ab-6def541b9a54</BaseId>
       <OriginId>00000000-0000-0000-0000-000000000000</OriginId>
       <SessionEnabled>true</SessionEnabled>
-      <Id>3f6e0584-c096-4293-9a2b-c7512b59f57f</Id>
+      <Id>588dd59d-7b0e-4c8c-8ef5-4d16e04df81c</Id>
       <CommandString>Waypoint [1..9]</CommandString>
       <ActionSequence>
         <CommandAction>
@@ -1279,7 +1279,7 @@
           <ConditionSkip>false</ConditionSkip>
           <IsSuffixAction>false</IsSuffixAction>
           <DecimalTransient1>0</DecimalTransient1>
-          <Id>db076a29-40d4-48a7-a9b8-216b0c345eb3</Id>
+          <Id>9410cbc3-fa93-4204-9fae-1387d50e7aee</Id>
           <ActionType>ExternalInvoke</ActionType>
           <Duration>0</Duration>
           <Delay>0</Delay>
@@ -1415,7 +1415,7 @@
   <EnableProfileSwitch>false</EnableProfileSwitch>
   <CategoryGroups />
   <GroupCategory>true</GroupCategory>
-  <LastEditedCommand>17ecd688-b964-44e4-be5d-e97fca007ad9</LastEditedCommand>
+  <LastEditedCommand>c795f4c6-4f63-4d72-af7b-e8b0560858c9</LastEditedCommand>
   <IS>0</IS>
   <IO>0</IO>
   <ReferencedProfiles />
