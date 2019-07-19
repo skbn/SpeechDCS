@@ -8,7 +8,7 @@ Installation:
 
 - Copy the Scripts folder in Save Games/DCS or Save Games/DCS.openbeta
 
-- Add to Export.Lua the following: local SphDir=require('lfs');dofile(SphDir.writedir()..[[Scripts\SpeechDCS\Main.lua]])
+- Add to Export.Lua the following: local SphDir=require('lfs');dofile(SphDir.writedir()..[[Scripts\SpeechDCS\Sph_Main.lua]])
 
 - Copy the SpeechDCS directory, which is in VoiceAttack, in /Program Files (x86)/VoiceAttack/Apps
   or where you have VoiceAttack installed.
@@ -54,10 +54,20 @@ Below is a short video of how the plugin works
 
 If you like this project and want to contribute, you can invite me to a cup of coffee or a beer    [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9FTQ98SM9V34C&source=url)
 
+<<<<<<< HEAD
+Release 0.4.2.1
+- Corrected compatibility with other scripts
+
+Release 0.4.2
+- Fixed a problem with the new version of voiceattack
+
+[Release 0.4.1.1](https://github.com/skbn/SpeechDCS/releases/tag/0.4.1.1)
+=======
 [Release 0.4.2](https://github.com/skbn/SpeechDCS/releases/tag/0.4.2)
 - Fixed a problem with the new version of voiceattack
 
 Release 0.4.1.1
+>>>>>>> 843cea738dae8773467631d4e96d73a4c65c76a3
 - Added change frequencies for adf of mig15-bis
 - Added alpha testing for uh-1h (adf only)
 
